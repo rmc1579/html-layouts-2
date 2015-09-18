@@ -1,0 +1,81 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:Arial;
+}
+.header{
+	padding:20px 0px;
+	position:relative;
+	min-height:150px;
+}
+.hbox1, .hbox2, .hbox3{
+	float:left;
+	width:31.33%;
+	min-height:150px;
+	margin-left:20px;
+}
+.hbox1{
+	background:red;
+}
+.hbox2{
+	background:skyblue;
+}
+.hbox3{
+	background:#333;
+}
+.content{
+	padding:20px;
+	position:relative;
+	float:left;
+}
+.cbox1, .cbox2{
+	height:200px;
+	float:left;
+}
+.cbox1{
+	background:red;
+	width:25%;
+}
+.cbox2{
+	background:skyblue;
+	width:75%;	
+}
+.footer{
+	padding:20px;
+	position:relative;
+	
+	float:left;
+	width:100%;
+}
+.fbox1, .fbox2{
+	min-height:150px;
+	float:left;
+}
+.fbox1{
+	background:skyblue;
+	width:72%;
+	min-height:150px;
+}
+.fbox2{
+	background:red;
+	min-height:150px;
+	width:25%;	
+}
+.fbox2innerleft, .fbox2innercenter, .fbox2innerright{
+	float:left;
+}
+.fbox2innerleft{
+	width:10%;
+	min-height:150px;
+}
+.fbox2innercenter{
+	background:gray;
+	width:80%;
+	min-height:150px;
+}
+.fbox2innerright{
+	width:10%;
+	min-height:150px;
+}
