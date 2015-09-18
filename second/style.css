@@ -1,0 +1,60 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:Arial;
+	background:LightGray;
+}
+.innercontent{
+	width:95%;
+	margin:0 auto;
+	padding:40px 0px;
+	font-family:Arial;
+	font-size:20px;
+	line-height:normal;
+}
+.headerbox{
+	background:#fff;
+	padding:20px;
+}
+.redbox{
+	width:150px;
+	padding:10px 7px;
+	text-align:center;
+	color:#fff;
+	display:inline-block;
+	background:red;
+	font-size:20px;
+	cursor:pointer;
+	
+}
+.bluebox{
+	width:150px;
+	padding:10px 7px;
+	text-align:center;
+	color:#fff;
+	display:inline-block;
+	background:blue;
+	font-size:20px;
+	margin-left:20px;
+	cursor:pointer;
+}
+.imagebox{
+	background:#333;
+	width:100%;
+	padding:150px 0px;
+	overflow:hidden;
+	text-align:center;
+	color:#fff;
+	font-size:30px;
+}
+
+.footer{
+	background:#333;
+	text-align:right;
+	color:#fff;
+}
+.innerfooter{
+	padding:40px;
+}
